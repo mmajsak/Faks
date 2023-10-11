@@ -1,0 +1,80 @@
+
+.Naslovna-slika{
+    background-image: url("Slike/banner.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.news{
+    float: left;
+}
+.news img {
+	width: 9%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+
+h2{
+    color: blue;
+}
+figure{
+    float: left;
+    width: 35%;
+    border: 1px black solid;
+    padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+}
+
+figcaption{
+    font-size: 90%;
+}
+
+#news-gallery figure {
+        padding: 0.5em;
+        margin: 0 1em 0.5em 1em;
+        float: left;
+        width: 10%;
+        border: 1px solid black;
+    }
+
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color: #333;
+    padding: 0.1em;
+    clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+
+footer img{
+    width: 3%;
+}
